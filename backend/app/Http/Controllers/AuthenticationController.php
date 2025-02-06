@@ -45,7 +45,8 @@ class AuthenticationController extends Controller
         else {
             return response()->json([
                 'status' => false,
-                'message' => 'Invalid Email or Password'
+                'message' => 'Invalid Email or Password',
+                
             ], 400);
         }
     }

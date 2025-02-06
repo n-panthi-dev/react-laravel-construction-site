@@ -36,7 +36,7 @@ const Login = () => {
       }
     } catch (error) {
       if (error.response.data.status == false) {
-        const serverErrors = error.response.data.error;
+        const serverErrors = error.response.data.message;
         Object.keys(serverErrors).forEach((key) => {
           setError(key, {
             type: "server",

@@ -78,6 +78,13 @@ npm start
 
 ```
 
+# Note : email and password for admin 
+```bash
+email:john@test.com
+password:password
+
+```
+
 ## Acknowledgments
 
 - Laravel for the backend framework.
